@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade, meses, dias	
+
+		escreva("Digite sua idade:")
+		leia(idade) 
+		escreva("Quantos meses faltam para seu aniversario:")
+		leia(meses)
+		escreva("Digite quantos dias faltam para seu aniversário:")
+		leia(dias)
+
+		meses = idade-12
+		dias = (idade*365-meses)
+
+		escreva("total de dias que você tem:", dias)
+		
+		
+	}
+}

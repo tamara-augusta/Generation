@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real peso, excesso = 0.0, multa = 0.0
+
+		escreva(" Quantos quilos?: ")
+		leia(peso)
+
+		se (peso>50)
+
+		{ 
+			excesso = peso - 50
+			multa = 4.00*excesso
+		}
+
+		escreva("Exesso: " + excesso)
+		escreva("\nMulta: " + multa)
+	}
+}
+

@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro codigo, numeroHorasTrabalhadas
+		real  valorHora = 10.0 , valorHoraExcedente = 20.0, salarioTotal = 0.0, salario = 0.0,  salarioExcedente = 0.0
+
+		escreva("Quantas horas você trabalhou?: ")
+		leia(numeroHorasTrabalhadas)
+
+		se (numeroHorasTrabalhadas>50)
+
+		{
+			salario=50*valorHora
+			
+			inteiro quantidadeHorasExedentes = numeroHorasTrabalhadas - 50
+			salarioExcedente = quantidadeHorasExedentes * valorHoraExcedente
+
+			salarioTotal = salario + salarioExcedente
+			
+		}
+
+		senao 
+		{
+			salarioTotal = valorHora * numeroHorasTrabalhadas
+		}
+		
+
+		escreva("Salário total "+salarioTotal)
+		escreva("\nSalário exedente "+salarioExcedente)
+
+	}
+}
+
