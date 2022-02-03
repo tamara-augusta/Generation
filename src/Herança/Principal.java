@@ -26,7 +26,7 @@ public class Principal {
 		preguica.emitirSom();
 		preguica.subiEmArvore();
 		
-		//executarAcao(cachorro);//metodo
+		executarAcao(cachorro);//metodo
 	}
 	
 	private static void executarAcao(Animal animal) {
