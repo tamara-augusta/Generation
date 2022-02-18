@@ -129,7 +129,8 @@ SELECT
 FROM 
 	tb_categoria
 	INNER JOIN tb_pizza 
-		ON tb_categoria.id = tb_pizza.tb_categoria_id;
+		ON tb_categoria.id = tb_pizza.tb_categoria_id
+        WHERE bebida = "Sim";
 
 SELECT * FROM tb_categoria WHERE massa_grossa = "Sim";
 
