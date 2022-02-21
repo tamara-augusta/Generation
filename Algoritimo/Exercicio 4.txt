@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real nota1, nota2, nota3, media 
+
+		escreva("\ndigite as notas: ")
+		leia(nota1, nota2, nota3)
+
+		media= (nota1 + nota2+ nota3)/3	
+	
+
+		escreva("Media:", media)
+
+	
+	}
+}

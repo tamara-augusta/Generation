@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro ano, mes, dia	
+
+		escreva("Digite o dia do seu aniversario:")
+		leia(dia) 
+		escreva("Digite o mes do seu aniversario:")
+		leia(mes)
+		escreva("Digite o ano do seu aniversario:")
+		leia(ano)
+
+		
+		escreva ("dia " + dia + " mês " + mes + " ano " + ano)

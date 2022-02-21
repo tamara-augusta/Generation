@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numerico
+
+		escreva(" Qual valor numerico?")
+		leia(numerico)
+
+		se (numerico>100)
+	
+		{
+			escreva(numerico)
+		
+			
+		}
+		senao
+	
+		{
+			escreva(0)
+		
+				
+		}
+	}
+}
+
